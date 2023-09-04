@@ -5,6 +5,6 @@ banan
 
 Website: https://raffiepro.github.io/EpicDungeon/
 
-If you want to upload your own dungeon then just fork this repository and add your own level :D
+If you want to upload your own dungeon then upload you dungeon to: https://mod.io/g/epic-dungeon
 
 (This is a school project)
