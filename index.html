@@ -5,7 +5,7 @@
 </head>
 
 <body>
-  <code>Enter dungeon name: </code> <input type="text" id="query_txt">
+  <code>(Mod.io) Enter dungeon name: </code> <input type="text" id="query_txt">
   
   <button id="search">SEARCH!</button>
 
@@ -14,13 +14,17 @@
     btn.addEventListener("click", press);
 
     function press() {
-	    window.location.href = "https://raffiepro.github.io/EpicDungeon/levels/"+ document.getElementById("query_txt").value +"/level1.dungeon";
+	    window.location.href = "https://mod.io/g/epic-dungeon/m/"+ document.getElementById("query_txt").value;
     }
 
   </script>
   
   <br>
-	<code>To see all the levels that are available go </code> <a href="https://github.com/Raffiepro/EpicDungeon/tree/main/levels"> HERE </a>
+  	<code>To see all the mod.io levels that are available go </code> <a href="https://mod.io/g/epic-dungeon"> HERE </a>
+  <br>
+  	<code>To see all the github levels that are available go </code> <a href="https://github.com/Raffiepro/EpicDungeon/tree/main/levels"> HERE </a>
+  <br>
+	<code>"Online dungeon" in the menu only accepts dungeons that are hosted on github so if you want to install ones from mod.io you have to put their folders in the mods directory and use "Local Dungeon" to play it :D</code>
   <br>
   
   <p><h1>OFFICIAL WEB FOR EPIC DUNGEON! :D</h1></p>
